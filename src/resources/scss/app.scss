@@ -1,0 +1,106 @@
+@import 'variables';
+
+.card-course-item {
+    margin-top: 16px;
+}
+
+.card {
+    min-height: 320px;
+}
+
+.user-avatar {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+
+.logo-header {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.checkbox-select-all-options {
+    width: 150px;
+    margin: 0 16px;
+}
+
+.header-dropdown-oi {
+    margin-right: 4px;
+}
+
+.three-line-paragraph {
+    display: block;
+    display: -webkit-box;
+    line-height: 16px;
+    max-height: 50px; 
+    -webkit-line-clamp: 3; 
+    visibility: visible; 
+    text-overflow: ellipsis;
+    overflow:hidden;
+    -webkit-box-orient: vertical;
+    // text-align:justify;
+}
+
+.two-line-paragraph {
+    display: block;
+    display: -webkit-box;
+    line-height: 16px;
+    max-height: 50px; 
+    -webkit-line-clamp: 2; 
+    visibility: visible; 
+    text-overflow: ellipsis;
+    overflow:hidden;
+    -webkit-box-orient: vertical;
+}
+
+.stored-courses-upload {
+    float:right
+}
+
+.show-ytb-video{
+    text-align: center;
+}
+
+h4,
+h6 {
+    color: #444444;
+    text-align: center;
+}
+
+// FOOTER
+
+.text-small {
+    font-size: 0.9rem;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+.form-control-footer {
+    background: #212529;
+    border-color: #545454;
+}
+
+.form-control-footer:focus {
+    background: #212529;
+}
+
+footer {
+    background: #212529;
+}
+
+body,
+html {
+    height: 100%;
+}
